@@ -1,0 +1,51 @@
+main{
+    background-color: #DCE4C9;
+}
+.main-header,
+.book-header,
+.input-header{
+    font-family: "Montserrat", serif;
+  }
+  
+  
+
+.dots::after{
+    content: ".......................................................................................................................................................................................................................................................................................";
+    display: block;
+    font-size:medium;
+    margin: 10px 0px;
+  }
+.book-header {
+  background: linear-gradient(to right, green, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.input-header {
+  text-align: left;
+  margin: 0 auto;
+}
+.btn{
+    border: white;
+}
+.btn-submit{
+  padding: 5px 30px;
+  border: #9ABF80;
+  background-color:#9ABF80;
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: #7B9866;
+}
+button.btn-table{
+    padding: 5px 30px;
+    border: #9ABF80;
+    background-color:#9ABF80;
+    color: white;
+  }
+
+button.btn-table:hover {
+    background-color: #7B9866;
+    color: white;
+  }
