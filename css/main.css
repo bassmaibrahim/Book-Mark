@@ -58,5 +58,6 @@ button.btn-table:hover {
   
     .book-header {
       font-size: smaller; 
+      font-weight: 300;
     }
   }
